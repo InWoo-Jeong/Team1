@@ -25,9 +25,9 @@ void searchName(Student *s, int count); // 학생 이름 검색
 
 int deleteStudent(Student *s); // 명부에 있는 학생 삭제
 
-void saveData(Student *s, int count); // 제품을 File에 저장
+void saveData(Student *s, int count); // 명부를 File에 저장
 
-int loadData(Student *s); // 파일에서 제품 불러오기
+int loadData(Student *s); // 파일에서 명부 불러오기
 
 void descendingSort(Student *s, int count); // 명부 내림차순 정렬 
 
